@@ -5,14 +5,10 @@
   window.hasRun = true;
 
   browser.runtime.onMessage.addListener((message) => {
-    let videoPlayer = document.getElementsByTagName("video")[0];
+    document.getElementsByTagName("video")[0].playbackRate = message.speed;
 
     console.log('kur za buhala');
 
-    if (message.command === "speed-up") {
-      videoPlayer.playbackRate = message.speed
-    } else if (message.command === "reset") {
-      videoPlayer.playbackRate = 1
-    }
+    return Promise.resolve({sucess: true});
   });
 })();

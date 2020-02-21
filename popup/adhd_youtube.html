@@ -8,10 +8,11 @@
 
 <body>
   <div id="popup-content">
-    <div class="button speed">2.25 speed</div>
-    <div class="button speed">2.50 speed </div>
-    <div class="button speed">2.75 speed</div>
-    <div class="button reset">reset speed</div>
+      <label>Speed:</label>
+      <input type="text" id="speed-text" maxlength="4" size="4" value="1">
+  </div>
+  <div id="success-content">
+    <label id="success-label" class="hidden"></label>
   </div>
   <div id="error-content" class="hidden">
     <p>Doesn't work outside of Youtube!</p>
