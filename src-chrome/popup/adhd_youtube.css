@@ -1,0 +1,26 @@
+html, 
+body {
+  height: 50px;
+  width: 125px;
+}
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#success-content {
+  margin-top: 10px;
+}
+
+#success-label {
+  margin: 4% auto;
+  padding: 6px;
+  background-color: #CFF2F2;
+  text-align: center;
+}

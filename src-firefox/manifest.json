@@ -1,0 +1,16 @@
+{
+  "description": "Enables custom speed for YouTube videos.",
+  "manifest_version": 2,
+  "name": "ADHD YouTube",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "ADHD YouTube",
+    "default_popup": "popup/adhd_youtube.html"
+  }
+}
